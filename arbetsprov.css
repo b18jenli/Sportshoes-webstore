@@ -23,7 +23,17 @@
 .carousel-indicators.slide-indicators button.active{
   background-color: rgb(255, 255, 255);
 }
-
+.navbar{
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+}
+.nav{
+  right: 0;
+}
+.nav-link, .navbar-brand{
+  color: rgb(255, 255, 255);
+}
 
 /*
 
