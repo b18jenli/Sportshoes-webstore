@@ -3,42 +3,47 @@
 .carousel{
   position: relative;
 }
-. ul{
-
+.carousel-indicators.slide-indicators div{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 10%;
+  z-index: 1;
 }
 
-. li{
-
+.carousel-indicators.slide-indicators button{
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
 }
 
-
+.carousel-indicators.slide-indicators button.active{
+  background-color: rgb(255, 255, 255);
+}
 
 
 /*
-position: absolute;
-z-index: 1;
-bottom: 0;
-display: flex;
-width: 100%;
-justify-content: center;
 
-width: 15px;
-height: 15px;
-list-style: circle;
-color: #fff;
 
-.indicators li.active{
-  color: #ff0000;
-}
+
+
+
+
+
+
+
+
 
 border-style: solid;
 border-width: 2px;
-border-color: rgb(255, 255, 255);
-border-radius: 50%;
+border-color: ;
+
 background-color: rgba(255, 255, 255, 0);
 position: absolute;
-left: 914px;
-top: 913px;
+
 z-index: 23;
 
 .Shape_1 {
