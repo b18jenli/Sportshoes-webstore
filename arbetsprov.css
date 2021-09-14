@@ -11,7 +11,6 @@
   bottom: 10%;
   z-index: 1;
 }
-
 .carousel-indicators.slide-indicators button{
   width: 5px;
   height: 5px;
@@ -19,10 +18,10 @@
   border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
 }
-
 .carousel-indicators.slide-indicators button.active{
   background-color: rgb(255, 255, 255);
 }
+
 .navbar{
   position: absolute;
   background-color: transparent;
@@ -35,26 +34,76 @@
   color: rgb(255, 255, 255);
 }
 
+.carousel-item{
+position: relative;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.img-overlay {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 45%;
+  text-align: center;
+}
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  height: 50%;
+}
+.btn-primary{
+  margin-right: 2em;
+}
+.btn{
+  font: bold 15px 'Oswald';
+  text-transform: uppercase;
+}
+.btn-outline-primary{
+  color: rgb(174, 232, 195);
+  border-color: rgb(255,255,255);
+}
+
+
+@media screen and (max-width: 575px) {
+  .img-overlay{
+    right: 15%;
+  }
+  .btn{
+      margin-right: 0;
+      background-color: #fff;
+      color: #000;
+  }
+}
+@media screen and (max-width: 767px){
+  .img-overlay{
+    right: 30%;
+  }
+  .btn-primary{
+      margin-right: 1em;
+  }
+}
 /*
+.Buy_Now {
 
-
-
-
-
-
-
-
-
-
-
-border-style: solid;
-border-width: 2px;
-border-color: ;
-
-background-color: rgba(255, 255, 255, 0);
-position: absolute;
-
-z-index: 23;
+  line-height: 9.267;
+  text-align: left;
+  position: absolute;
+  left: 427.844px;
+  top: 593.498px;
+  z-index: 9;
+}
+.Learn_More {
+  color: rgb(174, 232, 195);
+  line-height: 9.267;
+  text-align: left;
+  position: absolute;
+  left: 617.844px;
+  top: 592.498px;
+  z-index: 13;
+}
 
 .Shape_1 {
   background-color: rgb(255, 255, 255);
@@ -67,19 +116,7 @@ z-index: 23;
   z-index: 24;
 }
 
-.Learn_More {
-  font-size: 15px;
-  font-family: "Oswald";
-  color: rgb(174, 232, 195);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 9.267;
-  text-align: left;
-  position: absolute;
-  left: 617.844px;
-  top: 592.498px;
-  z-index: 13;
-}
+
 ._MEN__________WOMEN______ {
   font-size: 15px;
   font-family: "Lato";
