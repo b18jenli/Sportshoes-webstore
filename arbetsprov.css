@@ -1,0 +1,93 @@
+
+
+.carousel{
+  position: relative;
+}
+. ul{
+
+}
+
+. li{
+
+}
+
+
+
+
+/*
+position: absolute;
+z-index: 1;
+bottom: 0;
+display: flex;
+width: 100%;
+justify-content: center;
+
+width: 15px;
+height: 15px;
+list-style: circle;
+color: #fff;
+
+.indicators li.active{
+  color: #ff0000;
+}
+
+border-style: solid;
+border-width: 2px;
+border-color: rgb(255, 255, 255);
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0);
+position: absolute;
+left: 914px;
+top: 913px;
+z-index: 23;
+
+.Shape_1 {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  position: absolute;
+  left: 928px;
+  top: 922px;
+  width: 26px;
+  height: 1px;
+  z-index: 24;
+}
+
+.Learn_More {
+  font-size: 15px;
+  font-family: "Oswald";
+  color: rgb(174, 232, 195);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 9.267;
+  text-align: left;
+  position: absolute;
+  left: 617.844px;
+  top: 592.498px;
+  z-index: 13;
+}
+._MEN__________WOMEN______ {
+  font-size: 15px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.467;
+  text-align: left;
+  position: absolute;
+  left: 1676.785px;
+  top: 64.498px;
+  z-index: 31;
+}
+._Lorem_ipsum_dolor_sit_amet__consectetur_adipis {
+  font-size: 15px;
+  font-family: "Lato";
+  color: rgb(124, 139, 149);
+  line-height: 1.667;
+  position: absolute;
+  left: 397.516px;
+  top: 2567.627px;
+  width: 284px;
+  height: 64px;
+  z-index: 97;
+}
+
+*/
