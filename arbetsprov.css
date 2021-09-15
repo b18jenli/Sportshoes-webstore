@@ -3,9 +3,9 @@
 
 :root{
   --white: 255, 255, 255;
-  --lato-15: 15px 'Lato';
-  --oswald-33: 33px 'Oswald';
-  --oswald-15: 15px 'Oswald';
+}
+body{
+  font: 15px 'Oswald';
 }
 
 .carousel{
@@ -27,7 +27,7 @@ position: relative;
   border-radius: 50%;
 }
 .carousel-indicators.slide-indicators button.active{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(var(--white));
 }
 .navbar{
   position: absolute;
@@ -39,11 +39,11 @@ position: relative;
 }
 .nav-link {
   color: rgb(var(--white));
-  font: var(--lato15);
+  font-family: 'Lato';
   text-transform: uppercase;
 }
 .navbar-brand{
-  font: var(--oswald-33);
+  font: 30px 'Oswald';
 }
 .carousel-caption{
   position: absolute;
@@ -66,40 +66,61 @@ p{
   height: auto;
 }
 .btn{
-  font: bold 1em 'Oswald';
+  font-weight: bold;
   text-transform: uppercase;
   border-color: rgb(var(--white));
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 100%;
+  padding: 1em 3em;
 }
 .btn-outline-primary{
   color: rgb(174, 232, 195);
   border-color: rgb(var(--white));
 }
 .container{
-  margin-top: 5%;
+  margin-top: 4em;
 }
 .input-group{
-  width: auto;
-  padding: 2% 0%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+.form-control{
+border: none;
+padding: 1em;
+font: 15px 'Lato';
+}
+.btn-outline-secondary{
+border-left: none;
+height: inherit;
+padding: 0;
+width: 4em;
 }
 .col-md-2{
 border: 1px solid blue;
 }
 .col-md-6{
-  padding: 4% 2%;
+padding: 0;
+border: none;
 }
 .col-md-8{
 
 }
+.block-row{
+  margin: 6em 1em;
+}
+.block-card{
+  border:none;
+  border-radius: 0px;
+}
 .card-img-overlay{
-
+  margin-bottom: 2em;
 }
 .card-title, .card-link{
-  font: var(--oswald-33);
+  font-size: 33px;
   color: rgb(var(--white));
   text-transform: uppercase;
+}
+.card-bottom-row{
+  margin-top: 1em;
 }
 .product-title{
   font-size: 15px;
@@ -110,7 +131,7 @@ border: 1px solid blue;
   text-decoration: underline;
 }
 .card-text{
-  font: var(--lato-15);
+  font-family: 'Lato';
   color: rgb(124, 139, 149);
 }
 
@@ -122,12 +143,19 @@ border: 1px solid blue;
   }
   .btn{
   font-size: 50%;
+  padding: 1em;
   }
   .btn-primary{
     margin-right: 0;
   }
   .navbar-brand{
     font-size: 15px;
+  }
+  .col-md-6{
+    padding: 1em;
+  }
+  .card-bottom-row{
+    margin-top: 0;
   }
 }
 
