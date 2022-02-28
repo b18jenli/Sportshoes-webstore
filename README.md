@@ -9,7 +9,7 @@ It was made as a work assignment for the company 'HL Design &amp; Media'. The im
 
 - HTML
 - CSS (Bootstrap)
-- JavaScript
+- JavaScript/jQuery
 
 ## Tools used 
 
